@@ -1,16 +1,9 @@
 #include <stdio.h>
 
-void doSomething(int value)
-{
-  printf("%u", value);
-}
-
 int main(int argc, char *argv[])
 {
-  for (int i = 0; i < argc; i++) 
-  {
-    printf("%s\n", argv[i]);
-  }
+  float x = 0.02f;
+  printf("%.28f\n", x);
 
   return 0;
 }
